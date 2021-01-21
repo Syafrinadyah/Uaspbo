@@ -12,16 +12,12 @@ import java.util.Scanner;
  * @author SYAFRINA DYAH
  */
 public class User {
-    private String nama;
-    private int nohp;
-    private int nik;
+    private String name;
     
     
     public void PENUMPANG(){
         Scanner input = new Scanner(System.in);
         System.out.println("<<<<<<<<<< ISI DATA DIRI >>>>>>>>>>");
-        System.out.println("Nama:");String nama = input.next();
-        System.out.println("No Hp:");int nohp = input.nextInt();
-        System.out.println("NIK:");int nik = input.nextInt();
+        System.out.println("Name:");String name = input.next();
     }
 }
